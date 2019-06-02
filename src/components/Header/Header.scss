@@ -1,0 +1,19 @@
+.headerHolder {
+    margin: auto;
+    border-bottom: 1px solid;
+    font-size: 2.7rem;
+    width: 80%;
+    .brandName {
+        .brandNameFirst {
+            color: #a0a0a0;
+        }
+        .brandNameSecond {
+            color: #606060;
+        }
+    }
+
+    .projectName {
+        font-size: 45px;
+        text-align: right;
+    }
+}

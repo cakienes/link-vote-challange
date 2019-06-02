@@ -1,0 +1,22 @@
+.defaultInputHolder {
+    margin-top: 40px;
+    .defaultInput {
+        width: 100%;
+        border-radius: 6px;
+        border: 2px solid #cecece;
+        height: 66px;
+        padding: 20px 10px;
+        font-size: 24px;
+        align-items: center;
+        outline: none;
+
+        &::placeholder {
+            color: #ddd;
+        }
+    }
+
+    .defaultLabel {
+        padding: 0 10px;
+        font-size: 22px;
+    }
+}

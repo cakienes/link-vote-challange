@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+
+.submitNewLinkHolder {
+    margin: 25px 15px;
+    padding: 7px;
+    border: 2px solid #eee;
+    background-color: $greyBackground;
+    border-radius: 10px;
+    cursor: pointer;
+    .iconHolder {
+        display: inline-block;
+        width: 115px;
+        height: 115px;
+        border: 1px solid #979797;
+        font-size: 65px;
+        text-align: center;
+        border-radius: 10px;
+        background: #ececec;
+        font-weight: bolder;
+        vertical-align: middle;
+    }
+    .textHolder {
+        width: calc(100% - 115px);
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 30px;
+        text-align: center;
+        line-height: 115px;
+        font-weight: bolder;
+    }
+}

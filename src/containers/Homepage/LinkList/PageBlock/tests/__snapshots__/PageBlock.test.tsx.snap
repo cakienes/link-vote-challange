@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageBlock.tsx renders without crashing 1`] = `
+<div
+  className="pageBlockHolder"
+>
+  <div
+    className="leftArrow"
+    onClick={[Function]}
+  >
+    &lt;
+  </div>
+  <div
+    className="numberBlock"
+  >
+    
+  </div>
+  <div
+    className="rightArrow"
+    onClick={[Function]}
+  >
+    &gt;
+  </div>
+</div>
+`;
+
+exports[`PageBlock.tsx renders without crashing 2`] = `
+Array [
+  <div
+    className="pageNumber selected"
+    onClick={[Function]}
+  >
+    1
+  </div>,
+  <div
+    className="pageNumber undefined"
+    onClick={[Function]}
+  >
+    2
+  </div>,
+  <div
+    className="pageNumber undefined"
+    onClick={[Function]}
+  >
+    3
+  </div>,
+]
+`;

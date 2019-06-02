@@ -1,0 +1,38 @@
+@import '../../../../variables.scss';
+.confirmationModalHolder {
+    .modal-content {
+        border-radius: 0%;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #d8d8d8;
+        .modal-header {
+            height: 50px;
+            padding: 6px 10px;
+            border: none;
+            color: #fff;
+            background: #000;
+            border-radius: 0%;
+            button {
+                font-size: 40px;
+                color: #fff;
+                margin: -1.4rem -1rem -1rem auto;
+            }
+        }
+
+        .question {
+            font-size: 22px;
+            color: $secondLabelColor;
+        }
+
+        .linkName {
+            font-size: 35px;
+        }
+    }
+
+    .modal-footer {
+        border: none;
+        justify-content: center;
+    }
+}

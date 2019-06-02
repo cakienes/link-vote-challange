@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage.tsx renders without crashing 1`] = `
+<ForwardRef(render)
+  className="confirmationModalHolder"
+  onHide={[Function]}
+  show={true}
+>
+  <ForwardRef
+    closeButton={true}
+    closeLabel="Close"
+  >
+    <ForwardRef>
+      Modal title
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef>
+    <div
+      className="modalContent"
+    >
+      <div
+        className="question"
+      >
+        Do you want to remove:
+      </div>
+      <div
+        className="linkName"
+      >
+        name
+      </div>
+    </div>
+  </ForwardRef>
+  <ForwardRef>
+    <Button
+      label="OK"
+      onClick={[Function]}
+      type="button"
+    />
+    <Button
+      label="CANCEL"
+      onClick={[Function]}
+      type="button"
+    />
+  </ForwardRef>
+</ForwardRef(render)>
+`;

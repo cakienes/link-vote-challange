@@ -1,0 +1,78 @@
+@import '../../../variables.scss';
+
+.linkListTemplateHolder {
+    display: block;
+    margin: 25px 15px;
+    padding: 7px;
+    border-radius: 10px;
+    height: 130px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $greyBackground;
+    }
+
+    .pointHolder {
+        display: inline-block;
+        width: 115px;
+        height: 115px;
+        border: 1px solid #979797;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #ececec;
+        vertical-align: middle;
+        justify-content: center;
+        flex-direction: column;
+        float: left;
+        .point {
+            font-size: 50px;
+            display: block;
+            font-weight: bolder;
+        }
+    }
+
+    .linkDetailHolder {
+        display: inline-block;
+        width: calc(100% - 130px);
+        margin-left: 15px;
+        .linkName {
+            display: block;
+            font-weight: bold;
+            font-size: $fontPSize;
+        }
+        .linkUrl {
+            font-size: 20px;
+            color: $secondLabelColor;
+        }
+    }
+
+    .arrowGroupHolder {
+        margin-top: 20px;
+        color: $secondLabelColor;
+        .arrowHolder {
+            display: inline-flex;
+            width: 50%;
+            align-items: center;
+            cursor: pointer;
+            .arrowLabel {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .removeIcon {
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        font-size: 20px;
+        color: #fff;
+    }
+}

@@ -1,0 +1,26 @@
+.pageBlockHolder {
+    text-align: center;
+    font-weight: bold;
+    .leftArrow,
+    .rightArrow {
+        font-size: 22px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px 5px;
+    }
+    .numberBlock {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 22px;
+        .pageNumber {
+            display: inline-block;
+
+            height: 35px;
+            width: 35px;
+
+            &.selected {
+                border: 1px solid #000;
+            }
+        }
+    }
+}

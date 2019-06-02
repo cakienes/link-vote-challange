@@ -1,3 +1,6 @@
+NODE -v : v10.15.3 
+NPM -v: 6.4.1
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
